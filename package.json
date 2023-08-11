@@ -2,7 +2,7 @@
   "name": "pole-diary",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andram11.github.io/first-widget",
+  "homepage": "https://andram11.github.io/widget-training",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
